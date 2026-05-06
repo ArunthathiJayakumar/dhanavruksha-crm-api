@@ -1,11 +1,7 @@
 {
   "version": 2,
-  "name": "dhanavruksha-crm",
+  "name": "dhanavruksha-crm-api",
   "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
     {
       "src": "api/*.js",
       "use": "@vercel/node"
@@ -15,15 +11,6 @@
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1.html"
     }
-  ],
-  "functions": {
-    "api/*.js": {
-      "maxDuration": 10
-    }
-  }
+  ]
 }
