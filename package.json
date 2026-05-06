@@ -1,30 +1,5 @@
 {
   "name": "dhanavruksha-crm-api",
   "version": "1.0.0",
-  "description": "Backend API for DHANAVRUKSHA CRM",
-  "main": "api/users.js",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build needed for serverless'",
-    "start": "vercel dev"
-  },
-  "dependencies": {
-    "@vercel/node": "^3.0.0"
-  },
-  "devDependencies": {
-    "vercel": "^32.0.0"
-  },
-  "keywords": [
-    "crm",
-    "api",
-    "vercel",
-    "serverless",
-    "nodejs"
-  ],
-  "author": "Arunthathi Jayakumar",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ArunthathiJayakumar/dhanavruksha-crm-api.git"
-  }
+  "description": "Backend API for DHANAVRUKSHA CRM"
 }
